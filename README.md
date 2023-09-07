@@ -1,1 +1,1 @@
-# Programming_exercises_c
+# Programming_exercises
