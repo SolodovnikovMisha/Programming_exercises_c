@@ -1,4 +1,4 @@
-#include "head.h"
+#include "functions_for_buffer_queue.h"
 #define SIZE 10
 
 int buf[SIZE];
