@@ -1,0 +1,7 @@
+---
+src/my_sqrt.c:
+- TEST
+build/test/mocks/mock_my_sqrt.c:
+- TEST
+src/pifagor.c:
+- TEST

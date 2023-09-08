@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1688978575 source:c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_dominator\unity\unity.c
+	"unity.h"
+
+1688978581 c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_dominator\unity\unity.h
+	"unity_internals.h"
+
+1688978587 c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_dominator\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<sdkddkver.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1688984846 source:c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_dominator\test_for_function_dominator\main.c
+	"unity.h"
+	"dominator.h"
+
+1688983205 c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_dominator\function_dominator\dominator.h
+
+1688983205 source:c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_dominator\function_dominator\function_dominator.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	"dominator.h"
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pifagor_auto2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pifagor_auto2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="3.0 4.0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pifagor_auto2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="testing">
+				<Option output="pifagor_auto2" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="CMock/src" />
+					<Add directory="include" />
+					<Add directory="mocks" />
+					<Add directory="C:/practika/pifagor_auto2/Unity/src" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CMock/src/cmock.c">
+			<Option compilerVar="CC" />
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="Unity/src/unity.c">
+			<Option compilerVar="CC" />
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="include/pifagor_function.h" />
+		<Unit filename="include/sqrt.h">
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="mocks/Mocksqrt.c">
+			<Option compilerVar="CC" />
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="mocks/Mocksqrt.h">
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="src/pifagor_function.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sqrt.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="test/Testpifagor_function.c">
+			<Option compilerVar="CC" />
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="test/Testpifagor_function_Runner.c">
+			<Option compilerVar="CC" />
+			<Option target="testing" />
+		</Unit>
+		<Unit filename="test/Testsqrt.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="testing" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

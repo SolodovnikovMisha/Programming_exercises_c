@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1689678567 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pifagor_function.h"
+
+1689679478 c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\include\pifagor_function.h
+
+1689680750 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\src\pifagor_function.c
+	"pifagor_function.h"
+	<math.h>
+
+1686595893 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\unity-master\src\unity.c
+	"unity.h"
+
+1686595893 c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\unity-master\src\unity.h
+	"unity_internals.h"
+
+1686595893 c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\unity-master\src\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<sdkddkver.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1689680095 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\test\testpifagor_function.c
+	"unity.h"
+	"pifagor_function.h"
+
+1689679851 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\test\testpifagor_function_runner.c
+	"unity.h"
+	"pifagor_function.h"
+
+1689680692 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\src\sqrt.c
+	"sqrt.h"
+
+1689680692 c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\include\sqrt.h
+
+1689680529 source:c:\users\solod\desktop\Практика Керниган и Ритчи\pifagor_auto2\test\testsqrt.c
+	"unity.h"
+	"sqrt.h"
+
+1689680750 source:c:\practika\pifagor_auto2\src\pifagor_function.c
+	"pifagor_function.h"
+	<math.h>
+
+1689679478 c:\practika\pifagor_auto2\include\pifagor_function.h
+
+1689684922 source:c:\practika\pifagor_auto2\src\sqrt.c
+	"sqrt.h"
+	<math.h>
+
+1689680692 c:\practika\pifagor_auto2\include\sqrt.h
+
+1689685340 source:c:\practika\pifagor_auto2\test\testpifagor_function.c
+	"unity.h"
+	"Mocksqrt.h"
+	"pifagor_function.h"
+
+1689685070 source:c:\practika\pifagor_auto2\test\testpifagor_function_runner.c
+	"unity.h"
+	"cmock.h"
+	"pifagor_function.h"
+	"Mocksqrt.h"
+
+1689680529 source:c:\practika\pifagor_auto2\test\testsqrt.c
+	"unity.h"
+	"sqrt.h"
+
+1686595893 c:\practika\pifagor_auto2\unity\src\unity.h
+	"unity_internals.h"
+
+1686595893 c:\practika\pifagor_auto2\unity\src\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<sdkddkver.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1689683365 source:c:\practika\pifagor_auto2\mocks\mocksqrt.c
+	<string.h>
+	<stdlib.h>
+	<setjmp.h>
+	"cmock.h"
+	"Mocksqrt.h"
+
+1683551883 c:\practika\pifagor_auto2\cmock\src\cmock.h
+	"cmock_internals.h"
+	<stddef.h>
+
+1683551883 c:\practika\pifagor_auto2\cmock\src\cmock_internals.h
+	"unity.h"
+	<stdlib.h>
+
+1689683365 c:\practika\pifagor_auto2\mocks\mocksqrt.h
+	"unity.h"
+	"sqrt.h"
+
+1686595893 source:c:\practika\pifagor_auto2\unity\src\unity.c
+	"unity.h"
+
+1683551883 source:c:\practika\pifagor_auto2\cmock\src\cmock.c
+	"cmock.h"
+

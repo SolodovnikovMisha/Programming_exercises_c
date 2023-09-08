@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_odd_or_even\function_odd_or_even\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1688992648 source:c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_odd_or_even\function_odd_or_even\function_odd_or_even.c
+	<stdio.h>
+	<stdlib.h>
+	"function_Odd_or_Even.h"
+
+1688992766 c:\users\solod\desktop\Практика Керниган и Ритчи\test_for_function_odd_or_even\function_odd_or_even\function_odd_or_even.h
+
